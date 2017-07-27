@@ -1,0 +1,11 @@
+.container {
+    display: grid;
+    height: auto;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+.container div {
+    height: 200px;
+    border: 1px solid #000;
+}
