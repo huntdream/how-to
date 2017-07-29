@@ -1,0 +1,42 @@
+button {
+    border: none;
+    padding: 16px 32px;;
+    margin: 10px;
+    font-size: 14px;
+    outline: 0;
+    box-shadow: 0px 2px 4px 0px #000;
+    border-radius: 4px;
+    background-color: fuchsia;
+}
+
+button:active {
+  box-shadow: 0px 2px 6px 0px #000;
+}
+
+.ripple {
+    position: relative;
+    overflow: hidden;
+}
+
+.ripple .ripple--container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.ripple--container {
+    transform: scale(0);
+    border-radius: 50%;
+    opacity: 0.75;
+    background-color: #fff;
+    animation: ripple 1000ms;
+}
+
+@keyframes ripple {
+    to {
+        opacity: 0;
+        transform: scale(2);
+    }
+}
