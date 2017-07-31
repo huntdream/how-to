@@ -1,0 +1,23 @@
+.loader {
+    border-radius: 50%;
+    border-top: 5px solid blueviolet;
+    border-bottom: 5px solid #fff;
+    border-left: 5px solid #fff;
+    border-right: 5px solid #fff;
+    width: 40px;
+    height: 40px;
+    animation-name: spin;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0);
+    }
+    
+    100% {
+        transform: rotate(360deg)
+    }
+}
