@@ -11,4 +11,4 @@ There is crack in everything, that's how the light gets in
 - [ripple](https://huntdream.github.io/ripple)
 - [slide](https://huntdream.github.io/how-to/slide)
 - [tooltips](https://huntdream.github.io/how-to/tooltips)
-
+- [profile-card](https://huntdream.github.io/how-to/profile-card)
