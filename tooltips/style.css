@@ -1,0 +1,42 @@
+body {
+    font-style: 16px;
+    font-family:Arial,sans-serif;
+}
+
+.tool {
+    position: relative;
+    display: inline-block;
+}
+
+.tip {
+    visibility: hidden;
+    text-align: center;
+    position: absolute;
+    width:120px;
+    left:50%;
+    padding:5px 0;
+    margin-left:-60px;
+    bottom:125%;
+    background-color: #555;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.tip:after {
+    position: absolute;
+    content:'';
+    top:100%;
+    left:50%;
+    margin-left:-5px;
+    border: 5px solid transparent;
+    border-top-color: #555;
+
+}
+
+.tool:hover .tip {
+    visibility: visible;
+}
+
+.container {
+    margin:40px 8%;
+}
