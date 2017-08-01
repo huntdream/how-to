@@ -1,7 +1,6 @@
 var btn = document.getElementById('arrow');
 var reveal = document.getElementById('reveal');
 var one = document.getElementsByClassName('page-one');
-var two = document.getElementsByClassName('page-two');
 
 
 btn.onclick = function(){
