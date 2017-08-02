@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5f367c7e-1981-4a7b-a620-d5dd38e4dfaa" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -42,7 +41,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="144">
-                <caret line="6" column="49" lean-forward="true" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
+                <caret line="6" column="49" lean-forward="false" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
                 <folding />
               </first_editor>
               <second_editor>
@@ -208,7 +207,7 @@
       <workItem from="1501577183676" duration="3951000" />
       <workItem from="1501589752447" duration="7159000" />
       <workItem from="1501597444688" duration="802000" />
-      <workItem from="1501655692900" duration="3755000" />
+      <workItem from="1501655692900" duration="3775000" />
     </task>
     <task id="LOCAL-00001" summary="add tooltips example">
       <created>1501468074016</created>
@@ -329,11 +328,18 @@
       <option name="project" value="LOCAL" />
       <updated>1501659358865</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="update readme.md">
+      <created>1501659460478</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1501659460478</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28879000" />
+    <option name="totallyTimeSpent" value="28899000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -395,9 +401,9 @@
     <MESSAGE value="update loader" />
     <MESSAGE value="add reveal toggle" />
     <MESSAGE value="delete a unused variable" />
-    <MESSAGE value="update readme.md" />
     <MESSAGE value="add dropdown-menu with animation" />
-    <option name="LAST_COMMIT_MESSAGE" value="add dropdown-menu with animation" />
+    <MESSAGE value="update readme.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="update readme.md" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -683,7 +689,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="144">
-            <caret line="6" column="49" lean-forward="true" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
+            <caret line="6" column="49" lean-forward="false" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
             <folding />
           </first_editor>
           <second_editor>
