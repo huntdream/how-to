@@ -3,6 +3,7 @@ There is crack in everything, that's how the light gets in
 
 # List
 - [animated-search](https://huntdream.github.io/how-to/animated-search)
+- [dropdown-menu](https://huntdream.github.io/how-to/dropdown-menu)
 - [flex](https://huntdream.github.io/how-to/flex)
 - [full-page-image](https://huntdream.github.io/how-to/full-page-image)
 - [grid](https://huntdream.github.io/how-to/grid)
