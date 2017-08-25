@@ -1,0 +1,54 @@
+.container {
+    max-width: 1340px;
+    margin:0 auto;
+}
+
+.carousel-wrapper {
+    width: 100%;
+    height: 420px;
+    overflow: hidden;
+}
+
+.carousel-outer {
+    list-style: none;
+    width: 2800px;
+    height:420px;
+    margin:0;
+    padding: 0;
+    will-change: tranform;
+    transition: transform 1s linear;
+}
+
+.items {
+    width: 650px;
+    height: 100%;
+    float: left;
+    margin:10px;
+}
+
+.carousel-inner{
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    
+}
+
+.items:nth-child(1) div {
+    background-image: url(../image/a.jpg);
+}
+.items:nth-child(2) div {
+    background-image: url(../image/b.gif);
+}
+.items:nth-child(3) div {
+    background-image: url(../image/c.jpg);
+}
+.items:nth-child(4) div {
+    background-image: url(../image/d.jpg);
+}
+
+img {
+    height: 100%;
+    width: auto;
+}
