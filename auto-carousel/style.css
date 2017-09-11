@@ -11,23 +11,22 @@
 
 .carousel-outer {
     list-style: none;
-    width: 2800px;
-    height:420px;
+    width: 220px;
+    height:200px;
     margin:0;
     padding: 0;
     will-change: tranform;
-    transition: transform 1s linear;
 }
 
 .items {
-    width: 650px;
+    width: 200px;
     height: 100%;
     float: left;
     margin:10px;
 }
 
 .carousel-inner{
-    height: 400px;
+    height: 200px;
     width: 100%;
     background-size: cover;
     background-position: center;
@@ -35,20 +34,29 @@
     
 }
 
-.items:nth-child(1) div {
+.carousel-inner1 {
     background-image: url(../image/a.jpg);
 }
-.items:nth-child(2) div {
+.carousel-inner2 {
     background-image: url(../image/b.gif);
 }
-.items:nth-child(3) div {
+.carousel-inner3{
     background-image: url(../image/c.jpg);
 }
-.items:nth-child(4) div {
+.carousel-inner4{
     background-image: url(../image/d.jpg);
 }
 
 img {
     height: 100%;
     width: auto;
+}
+
+@keyframes slide {
+    from {
+        transform: translateX(0)
+    }
+    to {
+        transform: translateX(-2680px)
+    }
 }

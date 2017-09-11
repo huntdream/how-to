@@ -2,15 +2,18 @@ const ul = document.getElementById('carousel');
 const delta = -335;
 let counter = 0;
 let sign = 1;
-setInterval(function(){
-    console.log(ul.style.transform);
-    let result = delta*(counter);
-    ul.style.transform = "translateX("+result+ "px)";
-    counter+=sign;
-    if(counter===0){
-        sign=1;
+ul.style.transform = "translateX("+delta+"px)";
+
+    let result = delta * (counter);
+    ul.style.transform = "translateX(" + result + "px)";
+    setInterval(function(){
+        child = ul.children[0].cloneNode(true);
+        ul.appendChild(child);
+        ul.removeChild(ul.children[0]);
+    },2600);
+    if(counter<ul.childElementCount){
+        counter++;
     }
-    if(counter===4){
-        sign = -1;
+    else {
+        counter = 0;
     }
-},2000)
