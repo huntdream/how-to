@@ -1,5 +1,5 @@
 # How-TO
-There is crack in everything, that's how the light gets in
+There is a crack in everything, that's how the light gets in
 
 # List
 - [animated-search](https://huntdream.github.io/how-to/animated-search)
