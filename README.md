@@ -20,4 +20,5 @@ There is a crack in everything, that's how the light gets in
 - [slide-toggle](https://huntdream.github.io/how-to/slide-toggle)
 - [split-screen-slider](https://huntdream.github.io/how-to/split-screen-slider)
 - [tooltips](https://huntdream.github.io/how-to/tooltips)
+- [typewriter-simulation](https://huntdream.github.io/how-to/typewriter-simulation)
 - [zoom-on-hover](https://huntdream.github.io/how-to/zoom-on-hover)
